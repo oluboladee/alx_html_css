@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display:flex;
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    color: purple;
+    flex:2;
+    overflow-y: auto;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+ article h3{
+    color: red;
+}
+#testing{
+    color: blue;
+}
+#testing2{
+    color: brown;
+    background-color: pink;
+}
